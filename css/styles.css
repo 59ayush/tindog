@@ -1,0 +1,216 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+
+/* TOP-SECTION*/
+
+.title-container {
+  padding-bottom: 8%;
+}
+
+nav {
+  margin-bottom: 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: -2;
+  pointer-events: none;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+button {
+  margin: 2% 3% 0 0;
+}
+
+.iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: -1;
+  right: 23%
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+    margin-top: 10%;
+  }
+}
+
+
+/* FEATURES-SECTION */
+
+.feat-container {
+  margin-bottom: 4%;
+  background-color: white;
+  padding-top: 8%;
+}
+
+.feat-icon {
+  font-size: 3.5rem;
+  color: #ff4c68;
+}
+
+.feat-icon:hover {
+  color: #ef8172;
+}
+
+.feat-desc {
+  font-size: 1.3rem;
+}
+
+
+/* TESTIMONIAL-SECTION */
+
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.test-container {
+  text-align: center;
+  padding: 7% 15%;
+  padding-bottom: 3%;
+}
+
+.test-heading {
+  margin-bottom: 6%;
+  color: white;
+}
+
+.test-img {
+  width: 12%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+.pebbles {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* PRESS-SECTION */
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+
+.press-container {
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.press-img {
+  width: 15%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+}
+
+
+/* PRICING-SECTION */
+
+.pricing-container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.price-col {
+  margin-top: 5%;
+}
+
+.price-btn {
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+/* CALL-TO-ACTION */
+
+.cta-container {
+  background-color:  #ff4c68;
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.cta-head {
+  color: white;
+  margin-bottom: 5%;
+}
+
+.cta-btn {
+  width: 20%;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  color: grey;
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .cta-btn {
+    width: 30%;
+  }
+}
+
+@media (max-width: 599px) {
+  .cta-btn {
+    width: 45%;
+  }
+}
+
+/* FOOTER */
+
+.footer-container {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.footer-icon {
+  font-size: 1.8rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+}
+
+.footer-cp {
+  font-size: 1.5rem;
+  color: grey;
+}
